@@ -1,4 +1,5 @@
 let fs = require("fs");
+const main = require('../main/main');
 
 describe('main()', () => {
 
