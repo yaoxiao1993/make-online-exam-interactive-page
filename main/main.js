@@ -1,6 +1,6 @@
 function main(){
     var score = 0;
-    if(document.getElementById("1.1").innerHTML === '统一建模语言'){
+    if(document.getElementById("1.1").value === '统一建模语言'){
         score = score + 5;
     }
 

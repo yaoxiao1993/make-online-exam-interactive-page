@@ -19,19 +19,20 @@
                 <td>得分：<td id="score"></td></td>
             </tr>
             <tr>
-                <td>班级：<td class="font_bk">1班</td></td>
-                <td>学号：<td class="font_bk">001</td></td>
-                <td>姓名：<td class="font_bk">王小闹</td></td>
+                <td>班级：<td><input class="font_bk" type="text"/></td></td>
+                <td>学号：<td><input class="font_bk" type="text"/></td></td>
+                <td>姓名：<td><input class="font_bk" type="text"/></td></td>
             </tr>
         </table>
         <h2>一、填空题（每空5分，共20分）</h2>
         <table>
-            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. UML的中文全称是：<span id="1.1" class="font_bk">统一建模语言</span></td></tr>
+            <tr><td>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. UML的中文全称是：<input id="1.1" class="font_bk" type="text"/></td></tr>
             <tr><td>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 对象最突出的特征是：
-                <span id="1.2.1" class="font_bk">封装性</span>
-                <span id="1.2.2" class="font_bk">继承性</span>
-                <span id="1.2.3" class="font_bk">多态性</span>
+                <input id="1.2.1" class="font_bk" type="text"/>
+                <input id="1.2.2" class="font_bk" type="text"/>
+                <input id="1.2.3" class="font_bk" type="text"/>
             </td></tr>
         </table>
         <h2>二、选择题（每题10分，共20分）</h2>
@@ -84,9 +85,9 @@
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 简述什么是模型以及模型的表现形式？</p>
             <div id="5.1" class="font_bk2">模型是对现实世界的简化和抽象，模型是对所研究的系统、过程、事物或概念的一种表达形式。可以是物理实体；可以是某种图形；或者是一种数学表达式。</div>
         </table>
-        <form>
+        <p>
             <input type="button" onclick="main()" value="计算分数"></input>
-        </form>
+        </p>
         
         
     </body>
