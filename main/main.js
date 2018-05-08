@@ -4,15 +4,15 @@ function main(){
         score = score + 5;
     }
 
-    if(document.getElementById("1.2.1").innerHTML === '封装性'){
+    if(document.getElementById("1.2.1").value === '封装性'){
         score = score + 5;
     }
 
-    if(document.getElementById("1.2.2").innerHTML === '继承性'){
+    if(document.getElementById("1.2.2").value === '继承性'){
         score = score + 5;
     }
 
-    if(document.getElementById("1.2.3").innerHTML === '多态性'){
+    if(document.getElementById("1.2.3").value === '多态性'){
         score = score + 5;
     }
 
@@ -40,7 +40,7 @@ function main(){
         score = score + 10;
     }
 
-    if(document.getElementById("5.1").innerHTML === '模型是对现实世界的简化和抽象，模型是对所研究的系统、过程、事物或概念的一种表达形式。可以是物理实体；可以是某种图形；或者是一种数学表达式。'){
+    if(document.getElementById("5.1").value === '模型是对现实世界的简化和抽象，模型是对所研究的系统、过程、事物或概念的一种表达形式。可以是物理实体；可以是某种图形；或者是一种数学表达式。'){
         score = score + 20;
     }
 
